@@ -3,13 +3,30 @@ body
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: brown;
-    background-color: bisque;
+    background-color: rgb(215, 172, 119);
+}
+
+#cabecera
+{
+    background: rgb(180, 138, 82);
+    box-shadow: 0px 2px 50px 0px rgba(0,0, 0, 0.75);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 #container
 {
     width: 70%;
-    padding: lem;
+    padding: 1em;
     text-align: left;
     border: 3px solid #ddd;
     margin: 0 auto;
