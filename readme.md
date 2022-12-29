@@ -1,1 +1,3 @@
-# Proyectos de git y github para aprender a trabajar sobre ellos
+# platzi.github
+
+Creado para fine educativos propios
