@@ -1,3 +1,2 @@
-# platzi.github
-
-Creado para fine educativos propios
+# platzi.Github
+Subir archivos de la clases de platzi sobre GitHub
