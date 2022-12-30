@@ -70,3 +70,16 @@
 
 # git remote set-url origin "SSH-url"
 
+# git push origin --tags   - sube los tags que se creen del proyecto
+
+# git show-ref --tags   - muestra todos los tags que se encuentren en el documento
+
+# git tag -a "v0.1(nombre del tag, por lo regular son las versiones)" -m "mensaje a mostrar en el tag" "Hash del commit a insertar el tag"
+
+# git tag   - muestra los tags existentes
+
+# git tag -d "nombre del tag a borrar"
+
+# git push origin :refs/tags/"nombre del tag a borrar"
+
+
