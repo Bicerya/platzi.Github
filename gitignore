@@ -51,6 +51,7 @@
 #               los archivos en el directorio de trabajo local
 
 # git pull  - trae la copia actualizada del repositorio remoto, es decir ahorra el tiempo de hacer un "git fetch" + "git merge"
+#               "git pull origin main"
 
 # git commit -am   -- sirve para hacer commit de las modificacion sin utilizar el "git add ." por lo que nos ahorramos un paso
 
