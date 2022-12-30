@@ -84,4 +84,9 @@
 
 # git remote add upstream "URL" --- genera la copia de un repositorio remoto, en el cual queremos colaborar
 
+# git 
 
+# git stash   -- sirve para ver cambios guardados en memoria y poder recuperarlos
+# git stash pop  -- regresar los cambios
+
+# git 
