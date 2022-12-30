@@ -1,0 +1,59 @@
+# Directorio de trabajo --- PC local donde se encuentran los archivos guardados
+# Preparacion o staging --- Lugar donde se trackean los archivos que reciben modificaciones
+# Repositorio local  --- es donde se guardan los cambios una vez realizado un commit, sin embargo estos files no son visbiles
+
+
+# git init - inicia un repositorio
+# git add nombre_del_archivo - anade un nuevo documento a la carpeta/repositorio
+# git commit - envia la version del documento, se pedira que se agregue un comentarios con los cambios realizados
+# git commit -m "comentario sobre las modificaciones hechas" - envia la nueva version con comentarios
+# git status - te devuelve el status de la carpeta
+# git add .  - anade los combios de todos los documentos que se hayan modificado dentro de la carpeta
+# git log - muestra la historia de un archivo con los IDs de cada modificacion asi como los comentarios
+# git show - muestra cambios historicos 
+# git push - enviar hacia un repositorio remoto despues de que hice los cambios en el repositorio local
+# git pull - traer informacion de un repositorio
+# git config - para ver las posibles configuraciones
+#   "       --list - para ver la lista de configuracion hechas
+#   "       --list -show-origin  - para mostrar configuraciones y sus listas
+# git rm --cached nombre_del_archivo.txt - para eliminar el archiv del staged(ram)
+# git rm --force  - elimina los archivos de Git y del disco duro, se pueden recuperar pero se deberan usar comandos avanzados
+# git rm nombre_del_archivpo.txt  - para eliminar del repositorio
+# git show nombre_del_archivo - te muestra cuales han sido los cambios de un archivo desde la ultima actualizacion (ultima vs penultima)
+
+# git diff "commitA" "commitB" - te muestra la diferencia entre las versiones seleccionadas, esta puede ser cualqueira que se elija
+
+# staging - memoria ram, estado temporal, archivos temporalmente trackeados
+# repositorio - /.git/pueblicado - se le crea la clave de modificacion
+
+# git checkout - sirve para traer los cambios realizados por otras personas a los archivos del repositorio, dependiendo de la 
+# version que requieras
+
+# branch - son las ramas de git, las cuales pueden ser "Master(main)", "Experimentos(development)", "bugfixing(hotfix)", "backup"
+#           con este mismo comando creamos las ramas "git branch 'nombre_de_rama'"
+#           Para moverse entre ramas se utiliza la funcion "git checkout 'nombre_de_la_rama'"
+
+# Merge  - es cuando se une alguna de las ramas paralelas a la rama "master"
+
+
+# git reset - existen 2 tipos "--soft" "--hard"
+# git reset --soft  - sirve para cargar la version previa pero conserva los cambios que se encuentren en staging
+# git reset --hard  - sirve para regresar por completo la version elegida, quitando todo lo que se encuentre en medio
+# git rest HEAD  - saca los archivos del area de staging, no para borrarlos, solo que los ultimos cambios no se vayan en el commit actual
+
+# git log --stat  - muestra los cambios que se realizaron y ha que archivos, asi como el tamano en bytes
+
+# git clone url  - crea una copia identica del master repo tanto del directorio de trabajo, asi como crea el repositorio local, es decir
+#                   clona los archivos base, y los logs del Master que se encuentra en el repositorio remoto
+
+
+# git fetch  - crea una copia del repositorio remoto, en mi repositorio local sin embargo se debe de hacer un "git merge" para modificar
+#               los archivos en el directorio de trabajo local
+
+# git pull  - trae la copia actualizada del repositorio remoto, es decir ahorra el tiempo de hacer un "git fetch" + "git merge"
+#               "git pull origin main"
+
+# git commit -am   -- sirve para hacer commit de las modificacion sin utilizar el "git add ." por lo que nos ahorramos un paso
+
+
+
