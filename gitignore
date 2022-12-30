@@ -82,4 +82,6 @@
 
 # git push origin :refs/tags/"nombre del tag a borrar"
 
+# git remote add upstream "URL" --- genera la copia de un repositorio remoto, en el cual queremos colaborar
+
 
