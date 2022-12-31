@@ -84,9 +84,20 @@
 
 # git remote add upstream "URL" --- genera la copia de un repositorio remoto, en el cual queremos colaborar
 
-# git 
+# git rebase - sirve para combinar ramas y ocultar movimientos en las ramas/commits
 
 # git stash   -- sirve para ver cambios guardados en memoria y poder recuperarlos
 # git stash pop  -- regresar los cambios
 
-# git 
+# git clean -- es para borrar archivos que uno no quiera tener
+# git clean --dry-run  --- para validar cuales son los archivos que pudieran ser borradas
+
+# git cherry-pick "hash especifico" --sirve para traer solo un commit de alguna rama especifica
+
+# git reset y reflog
+
+# git reflog   --te da la informacion de todos los logs con Heads
+
+# git reset --HARD "Hash" 
+
+
