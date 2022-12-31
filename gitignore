@@ -10,6 +10,7 @@
 # git status - te devuelve el status de la carpeta
 # git add .  - anade los combios de todos los documentos que se hayan modificado dentro de la carpeta
 # git log - muestra la historia de un archivo con los IDs de cada modificacion asi como los comentarios
+#         -S "palabra"  -- muestra los logs buscando palabras/ramas 
 # git show - muestra cambios historicos 
 # git push - enviar hacia un repositorio remoto despues de que hice los cambios en el repositorio local
 # git pull - traer informacion de un repositorio
@@ -103,4 +104,25 @@
 # git add -A  -- para hacer uso de los amend los archivos deben de estar en staging
 # git commit --amend   -- remienda el ultimo commit
 
+# git grep "palabra a buscar"
+#            -n "palabra" en que linea se usa la palabra
+#             -C "palabra"   --cuenta las veces que hay una palabara
+
+
+
+#    git shortlog -sn: muestra cuantos commit han hecho cada miembro del equipo.
+
+#   git shortlog -sn --all: muestra cuantos commit han hecho cada miembro del equipo, hasta los que han sido eliminados.
+
+#   git shortlog -sn --all --no-merge: muestra cuantos commit ha hecho cada miembro, quitando los eliminados sin los merges.
+
+#   git blame ARCHIVO: muestra quien hizo cada cosa línea por línea.
+
+#   git COMANDO --help:muestra como funciona el comando.
+
+#   git blame ARCHIVO -Llinea_inicial,linea_final: muestra quien hizo cada cosa línea por línea, indicándole desde qué línea ver. Ejemplo -L35,50.
+
+#   git branch -r: se muestran todas las ramas remotas.
+
+#   git branch -a: se muestran todas las ramas, tanto locales como remotas.
 
