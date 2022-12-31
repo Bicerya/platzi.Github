@@ -100,4 +100,7 @@
 
 # git reset --HARD "Hash" 
 
+# git add -A  -- para hacer uso de los amend los archivos deben de estar en staging
+# git commit --amend   -- remienda el ultimo commit
+
 
