@@ -9,3 +9,149 @@ asi mismo, ya cuentan con instalacion de internet. lo que ayudara a que mas pers
 al momento de planear un viaje.
 
 Seguiremos creando y añadiendo cosas a la pagina hasta dejarla completamente al servicio del hotel
+
+
+Git funciona para muchos tipos de archivo, ¿Qué tal funciona Git con archivos binarios?
+
+Los puede agregar y versionar pero es mejor usar Git con texto plano. --
+
+2.
+¿La terminal ideal para usar Git en Windows es?
+
+Git Bash o una terminal derivada de Linux -- 
+
+3.
+¿Qué guarda Git?
+Los archivos completos por cada versión de un proyecto.  --REPASAR
+
+
+4.
+Los cambios a un archivo que están en “staging” están en:
+
+Un área temporal en memoria antes de llegar al repositorio. -- 
+
+5.
+¿Qué es un branch o una rama en Git?
+Un repositorio aparte del master donde puedes trabajar en paralelo. --
+
+6.
+Un repositorio remoto y un repositorio local:
+
+Tienen ramas similares dependiendo de cuáles haya enviado entre uno y otro. --
+
+7.
+¿El HEAD en una rama es?
+
+El apuntador al estado actual del repositorio basado en la rama en la que estoy trabajando.  --
+
+8.
+¿Cuándo debería hacer un merge?
+
+Cuando quiero fusionar los cambios de una rama con otra. --
+
+9.
+¿GitHub es?
+
+Un sistema online de manejo de repositorios de Git. --
+
+10.
+¿Las llaves públicas son?
+
+Sistemas de cifrado básicos donde la misma llave puede cifrar y descifrar un mensaje.  --REPASAR
+
+
+11.
+Para transmitir cambios seguros entre tu repositorio local y GitHub, ¿qué se recomienda?
+
+Usar una llave SSH. --
+
+12.
+Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?
+
+Ninguna extensión --
+13.
+¿Qué crean los tags en Git?
+
+Etiquetas para luego buscar qué tipo de archivos estaba usando y sus categorías. --REPASAR
+
+
+14.
+En un repositorio público en GitHub, ¿qué puede hacer los colaboradores?
+
+Hacer cambios al repositorio, hacer push/pull, crear ramas, etc. --
+15.
+Para que dos personas trabajen en paralelo sobre el mismo archivo se recomienda:
+Una rama independiente por cada persona y sus cambios que luego con verificación se hace merge a master. --
+
+16.
+Un pull request es:
+
+Un cambio sugerido a un repositorio que el dueño del repositorio puede autorizar y hacer merge a la rama que elija. --
+
+17.
+Cuando hago un fork de un proyecto en GitHub, ¿lo que logro es?
+
+Copiar la rama master de un repositorio público y toda su historia anterior, pero no otras ramas a menos que las especifique. --REPASAR
+
+18.
+Si ya hiciste el desafío de “Hazme un pull request,” ¿dentro de cuál etiqueta tenías que agregar el cambio?
+
+<divid="post">  -- 
+19.
+Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?
+
+images/jquery.js --
+20.
+Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:
+
+Memoria temporal, volviendo al estado del último commit. -- 
+
+21.
+¿Cuándo deberías usar cherry-pick?
+
+Cuando quiero los cambios de un commit pasado sin dañar la historia de la rama. --
+
+22.
+¿Con amend puedo?
+
+Corregir los mensajes de un commit que hice mal sin que quede en la historia del repositorio. --
+
+23.
+¿Qué puedes hacer con gitk?
+
+Ver en una interfaz visual las ramas y el log de tu repositorio. --
+
+24.
+Si usas:
+
+git config --global alias.platzi "shortlog" --
+
+¿Cómo invocar ese comando?
+
+git alias.platzi -- REPASAR
+
+25.
+Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:
+
+Debemos aprender Git con sus comandos de la terminal para resolver problemas o conflictos más avanzados. Gitk funciona bien, pero no nos permite realizar operaciones tan complejas. --
+
+26.
+¿Puedes conectar tu repositorio local con más de un repositorio remoto?
+Verdadero --
+27.
+Estás en la rama master y quieres mandar los últimos cambios que guardaste con git stash a la rama retomando-los-cambios (la rama no ha sido creada aún). ¿Cuál de las siguientes soluciones es incorrecta?
+
+git branch retomando-los-cambios, git checkout retomando-los-cambios, git stash pop --REPASAR
+
+
+28.
+¿Para qué sirve git grep?
+
+Para encontrar las veces que hemos usado una palabra en los archivos del repositorio. -- 
+29.
+¿Para qué sirve GitHub Pages?
+Es un servicio de GitHub que nos permite publicar nuestros repositorios en internet (por ejemplo, nombre.github.io o nombre.github.io/proyecto). --
+30.
+El Jefe Freddy despidió a Anita y no piensa volver a contratarla. ¿Qué debe hacer Anita para seguir haciendo contribuciones a los proyectos públicos de Platzi? 
+
+Crear un Fork del proyecto y enviar Pull Request al proyecto original.--
