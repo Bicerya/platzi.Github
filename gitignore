@@ -1,4 +1,4 @@
-# Directorio de trabajo --- PC local donde se encuentran los archivos guardados
+a# Directorio de trabajo --- PC local donde se encuentran los archivos guardados
 # Preparacion o staging --- Lugar donde se trackean los archivos que reciben modificaciones
 # Repositorio local  --- es donde se guardan los cambios una vez realizado un commit, sin embargo estos files no son visbiles
 
@@ -35,6 +35,7 @@
 #           Para moverse entre ramas se utiliza la funcion "git checkout 'nombre_de_la_rama'"
 
 # Merge  - es cuando se une alguna de las ramas paralelas a la rama "master"
+#   git pull origin master --allow-unrelated-histories
 
 
 # git reset - existen 2 tipos "--soft" "--hard"
